@@ -16,16 +16,18 @@ Star Citizen offers incredible freedom, but that freedom often creates a simple 
 
 Should you:
 
-* Haul cargo?
-* Mine resources?
-* Salvage wrecks?
-* Trade commodities?
-* Farm blueprints?
-* Save for a new ship?
+- Haul cargo?
+- Mine resources?
+- Salvage wrecks?
+- Trade commodities?
+- Farm blueprints?
+- Save for a new ship?
 
 The answer depends on your ships, credits, location, available playtime, and personal goals.
 
 VersePilot exists to answer that question.
+
+**It helps players spend less time planning and more time playing.**
 
 ---
 
@@ -37,18 +39,18 @@ Instead of recommending a single mission or activity, VersePilot generates a com
 
 A typical Session Plan includes:
 
-* Recommended activity
-* Expected earnings or progression
-* Suggested ship
-* Required equipment
-* Estimated session length
-* Risk level
-* Step-by-step actions
-* An explanation of why this plan was selected
+- Recommended activity
+- Expected earnings or progression
+- Suggested ship
+- Required equipment
+- Estimated session length
+- Risk level
+- Step-by-step actions
+- An explanation of why this plan was selected
 
 The objective is simple:
 
-**Spend less time deciding and more time playing.**
+> **Spend less time deciding and more time playing.**
 
 ---
 
@@ -56,12 +58,12 @@ The objective is simple:
 
 VersePilot is built around a few simple principles.
 
-* Build intelligence, not databases.
-* Integrate with existing community resources.
-* Keep recommendations player-centric.
-* Explain every recommendation.
-* Optimize long-term progression.
-* Keep the MVP focused and simple.
+- Build intelligence, not databases.
+- Integrate with existing community resources.
+- Keep recommendations player-centric.
+- Explain every recommendation.
+- Optimize long-term progression.
+- Keep the MVP focused and simple.
 
 Every feature should ultimately answer one question:
 
@@ -73,15 +75,16 @@ Every feature should ultimately answer one question:
 
 VersePilot intentionally avoids duplicating work already done by the Star Citizen community.
 
-Instead, it aims to integrate with existing resources wherever possible.
+Instead, it integrates with existing community resources wherever possible.
 
 Potential integrations include:
 
-* SCMDB
-* UEX
-* Erkul
-* Star Citizen Wiki
-* Future official APIs
+- SCMDB
+- UEX
+- Strata
+- Erkul
+- Star Citizen Wiki
+- Future official APIs
 
 These projects provide excellent information.
 
@@ -93,13 +96,13 @@ VersePilot's job is to transform that information into actionable recommendation
 
 The initial MVP focuses on proving one concept:
 
-Generate a useful Session Plan from only five inputs:
+Generate a useful Session Plan from a small set of player inputs:
 
-* Current ship
-* Current location
-* Current credits (aUEC)
-* Current goal
-* Available playtime
+- Current ship
+- Current location
+- Current credits (aUEC)
+- Current goal
+- Available playtime
 
 Nothing more.
 
@@ -109,25 +112,34 @@ Nothing more.
 
 ## Backend
 
-* Python
-* FastAPI
-* SQLAlchemy
-* SQLite (initially)
-* PostgreSQL (future)
+- Python
+- FastAPI
+- SQLAlchemy
+- Alembic
+- SQLite (initially)
+- PostgreSQL (future)
 
 ## Frontend
 
-* React
-* TypeScript
-* Vite
+- React
+- TypeScript
+- Vite
 
 ---
 
-# Project Status
+# Documentation
 
-**Current Stage:** Foundation
+Project documentation is available in the `docs/` directory.
 
-The project is currently focused on documentation, architecture, and planning before implementation begins.
+Current documentation includes:
+
+- Product Specification
+- Backend Architecture
+- Frontend Architecture
+- Database Architecture
+- Recommendation Engine Architecture
+
+Additional documentation covering providers, gameplay loops, and architectural decisions will be added as the project evolves.
 
 ---
 
@@ -148,17 +160,3 @@ This project is licensed under the MIT License.
 ---
 
 ## Make every session count.
-
-
-
-## Current Status
-
-VersePilot has completed the product specification and architecture phase.
-
-Current focus:
-
-- Backend implementation
-- Frontend implementation
-- Recommendation Engine MVP
-
-The first development milestone is a working vertical slice capable of generating mock Session Plans.
