@@ -11,3 +11,14 @@ The documentation in this directory is considered the source of truth for the pr
 - Providers
 - Gameplay
 - Architecture Decisions
+
+## Documentation
+
+- Product Specification
+- Backend Architecture
+- Frontend Architecture
+- Database Architecture
+- Recommendation Engine Architecture
+- Provider Catalog
+- Gameplay Loop Catalog
+- Architecture Decisions
